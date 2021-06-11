@@ -15,7 +15,7 @@ import com.joao.blogPessoal.model.UserLogin;
 import com.joao.blogPessoal.model.Usuario;
 import com.joao.blogPessoal.service.usuarioService;
 @RestController
-@RequestMapping
+@RequestMapping("/usuario")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UsuarioController {
 
